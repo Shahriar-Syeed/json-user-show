@@ -17,7 +17,7 @@ function changeHTML(id, userData){
   
   for(let i=0;i < userData.length;i++){    
     sum =sum+`
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
     <div class="card my-2">
       <div class="card-body">
         <p class="card-text">Name: ${userData[i].name}</p>
